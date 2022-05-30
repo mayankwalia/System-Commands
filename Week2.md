@@ -111,7 +111,7 @@
 * `ln -s source destination` to create symbolic link. `ln -s file1 file2`
   - file2 is a separate inode entry but it is just a shortcut to file1
   - file2 has only 1 hardlink.
-* `ln source destionation` to create a hard link . `ln file1 file3`
+* `ln source destination` to create a hard link . `ln file1 file3`
   - file1 and file 3 have the same inode number - They are basically the same file.
   - file1 and file3 have 2 hard links when we do `ls -li`
 * You can create a Soft Link `ln -s ../dir/filex fileSL` but creating a hard link using `ln ../dir/filex fileHL` will not work.
@@ -164,7 +164,7 @@
   - `echo $USERNAME` and `echo "$USERNAME"` give the same result but `echo '$USERNAME'` is not interpreted to give the value of the shell variable.
   - ** Escaping to prevent interpretation **
   - `echo "username is $USERNAME and host name is \$HOSTNAME"`
-  - Escaping is usefule when you want to pass on the information to a child shell, without it being interpreted by the shell launching it.
+  - Escaping is useful when you want to pass on the information to a child shell, without it being interpreted by the shell launching it.
 * `echo $HOME` prints values of variables
   - By convention every shell variable starts with a Dollar
 * **Commonly used shell variables**
@@ -238,8 +238,8 @@
   - The `H` flag in bash means the history is being recorded
 * Brace expansion option `B`
   - if you type `echo {a..z}` character in the ASCII sequence will be expanded.
-  - In combination `echo {a..d}{a..d}` will display all possible combinations of the 2 alphabets.
-  - `*` exapnds to all the files in the current directory
+  - In combination `echo {a..z}{a..z}` will display all possible combinations of the 2 alphabets.
+  - `*` expands to all the files in the current directory
   - `echo D*` lists all the files begining with D.
   - Examples :
     - `mkdir {1..12}{A..E}` or `rmdir {1..12}{A..E}` or `touch {1..12}{A..E}/{1..40}`
