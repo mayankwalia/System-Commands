@@ -1,3 +1,4 @@
+> [Back](README.md)
 ## Week 1 Notes 
 
 ### Terminal Emulators 
@@ -195,3 +196,5 @@
 |----------|:-------------:|------:|
 | static   |  `/usr and /opt` | `/etc` and `/boot` |
 | variable |    `/var/mail`   |   `/var/run` and `/var/lock` |
+
+> [Back](README.md)
