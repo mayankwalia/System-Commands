@@ -1,3 +1,4 @@
+> [Back](README.md)
 ### Week 4 Notes
 
 #### Software Management
@@ -365,3 +366,5 @@ ___
 		- `-l` flag for `grep` and `egrep` prints the name of each input file that matches 
 	- command to list all the packages installed on your machine and their versions in the format Package Version in a sorted manner
 		- `dpkg-query -W -f='${Package} ${Version}\n' | sort`
+
+> [Back](README.md)
