@@ -1,6 +1,7 @@
 # System-Commands-course
 
 #### Notes from the System Commands course
+* [Compiled Week 1-4](Compiled.md)
 * [Week 1](Week1.md)
 * [Week 2](Week2.md)
 * [Week 3](Week3.md)
