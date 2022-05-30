@@ -95,9 +95,9 @@
  * Second arrument behaviour and interpratation of last argument should be seen in the man pages
  * Recursion is assumed for `mv` and not `cp`
   - recursion is assumed for some commands and should be explicitly stated in others
-  - For copy command recurssion is not assumed
+  - For copy command recursion is not assumed
   - `cp dir1 dir2` need not work. dir1 has 2 files in it.
-  - `cp -r dir1 dir2` works - recurssion is specified explicitly.
+  - `cp -r dir1 dir2` works - recursion is specified explicitly.
   - `mv dir1 dir3` works - it just renames the directory.
  * `touch file1 file2 file3` creates all 3 files in one go with identical timestamp.
  
