@@ -1,3 +1,4 @@
+> [Back](README.md)
 ## Week 2 Notes
 
 * Multiple uses of / is as good as one
@@ -253,3 +254,5 @@
 - `rmdir {1..12}{A..E}`
 - `touch {1..12}{A..E}/{1..40}`
 - `lscpu | grep -i "model name"| cut -d ":" -f "2"`
+
+> [Back](README.md)
