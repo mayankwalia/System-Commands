@@ -109,8 +109,8 @@
   - `echo "${myvar}_something"` 
 * Removing a variable
   - `unset myvar`
-  - Removing value of a variable `myvar=`
-* Test is a variable is set
+  - Removing value of a variable `myvar`
+* Test if a variable is set
   - `[[ -v myvar ]] ; echo $? `
     - 0 : success (variable myvar is set)
     - 1 : failure (variable myvar is not set)
@@ -142,7 +142,7 @@
 * Slice of a string value
   - `echo ${myvar:5:4}` (5 is the offset and 4 is the slice length)
     - Display 4 characters of the string value of the variable `myvar` after skipping first 5 characters.
-  - if the slice length is larget than the length of the string then only what is available in the string will be displayed.
+  - if the slice length is larger than the length of the string then only what is available in the string will be displayed.
   - the offset can also be negative. However you need to provide a *space* after the *:* to avoid confusion with the earlier usage of the `:-` symbol. The offset would come from the right hand side of the string.
 * Remove matching pattern
   - `echo ${myvar#pattern}` - matches once
