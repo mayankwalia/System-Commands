@@ -50,7 +50,7 @@
 * Context for prompt strings
   - `bash`,`dash`, `zsh`, `ksh`, `csh`
   - `python`
-  - `octave` - Mathlab compatible numerical package
+  - `octave` - Matlab compatible numerical package
   - `gnuplot` - Plotting tool
   - `sage` - symbolic cumputing package. Perhaps better than Mathematica
  
