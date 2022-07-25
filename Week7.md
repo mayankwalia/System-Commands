@@ -47,18 +47,18 @@ sequence for matching **address pattern** for **actions** specified with the
 	
 * address
 	- Selecting by Numbers
-		- `5`
-		- `$`
-		- `%`
-		- `1~3`
+		- `5`   5th line
+		- `$`   Last line
+		- `%`   Every line
+		- `1~3` Every third line starting from first line
 	- Selecting by matching
 		- `/regexp/`
 	- Range Address
-		- `/regexp1/,/regexp2/`
-		- `/regexp/, +4`
-		- `/regexp/, ~2`
-		- `5,15`
-		- `5,/regexp/`
+		- `/regexp1/,/regexp2/` From,To 
+		- `/regexp/, +4` Next 4 lines starting from where the pattern match
+		- `/regexp/, ~2` Every second line
+		- `5,15` 5th to 5th line
+		- `5,/regexp/` 5th until pattern is found
 	
 * actions
 
